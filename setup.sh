@@ -24,5 +24,6 @@ if [ ! -e ./Gemfile ]; then
         gem "lita-pokemon"
         gem "lita-quote"
         gem "lita-motivate"
+        gem "lita-xkcd"
 _EOF_
 fi
