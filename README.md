@@ -1,12 +1,12 @@
-# uzyexe/lita-slack
+# izura/lita
 
 Run the lita bot for slack
 
 ## Dockerfile
 
-[**Trusted Build**](https://registry.hub.docker.com/u/uzyexe/lita-slack/)
+[**Trusted Build**](https://registry.hub.docker.com/u/izura/lita/)
 
-This Docker image is based on the [litaio/ruby:2.2.2](https://registry.hub.docker.com/u/litaio/ruby/) base image.
+This Docker image is based on the [uzyexe/lita-slack](https://registry.hub.docker.com/u/uzyexe/lita-slack/) base image.
 
 ## Using
 
@@ -24,3 +24,5 @@ This Docker image is based on the [litaio/ruby:2.2.2](https://registry.hub.docke
 ## lita-slack
 
 [Getting started](https://github.com/kenjij/lita-slack)
+
+
