@@ -6,6 +6,9 @@ if [ ! -e ./lita_config.rb ]; then
 	  config.robot.log_level = :${LITA_INFO_LEVEL}
 	  config.redis[:host] = "${REDIS_HOST}"
 	  config.redis[:port] = ${REDIS_PORT}
+          config.robot.name = "Sachiko"
+          config.robot.mention_name = "Sachiko"
+          config.robot.alias = "Sachiko"
 	  config.robot.adapter = :slack
 	  config.adapters.slack.token = "${SLACK_TOKEN}"
 	end
@@ -18,5 +21,8 @@ if [ ! -e ./Gemfile ]; then
 	
 	gem "lita"
 	gem "lita-slack"
+        gem "lita-pokemon"
+        gem "lita-quote"
+        gem "lita-motivate"
 _EOF_
 fi

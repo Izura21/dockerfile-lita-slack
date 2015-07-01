@@ -15,7 +15,10 @@ ADD setup.sh setup.sh
 
 RUN echo "gem: --no-ri --no-rdoc" > /.gemrc && \
     gem install lita -v ${LITA_VERSION} && \
-    gem install lita-slack
+    gem install lita-slack && \
+    gem install lita-pokemon && \
+    gem install lita-quote && \
+    gem install lita-motivate
 
 CMD if [ -e ./setup.sh ]; then \
       ./setup.sh; \
